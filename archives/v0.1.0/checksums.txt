@@ -1,5 +1,0 @@
-020496c305d74d2578ff890e25965086480f162ca0ab32a8b3740c21fff33eaa  8kno-windows-x64.zip
-25cbb57708074f0625b5a83162fd21953bec01b96aaf8734dd15ae31ea33fafd  8kno-linux-x64.tar.gz
-83c56c2fac858eb209e5e5a2b0b8e9684d41f2a542ee449c51089b53c9f5899b  8kno-linux-arm64.tar.gz
-fcc3f616d3baa780ca9cb6dff84fe456c75f2e11b7857ebf3e48643eea75411f  8kno-darwin-x64.tar.gz
-bb14ac2fefadae6e8076d775e388a0bfe5dfdc039dcb6f7106d777f22f53f8da  8kno-darwin-arm64.tar.gz

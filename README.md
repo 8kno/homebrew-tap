@@ -14,5 +14,5 @@ Homebrew requires the canonical formula file to start with a valid Ruby class na
 
 - `Formula/eightkno.rb` is the canonical Homebrew formula.
 - `Aliases/8kno` provides the `brew install 8kno/tap/8kno` entrypoint.
-- `archives/v*/` stores the versioned runtime archives consumed by Homebrew and other manual installs.
-- Each version directory includes its own `checksums.txt` manifest.
+- Runtime archives are published as GitHub Release assets for this repository.
+- The formula points to `https://github.com/8kno/homebrew-tap/releases/download/v0.1.0`.
