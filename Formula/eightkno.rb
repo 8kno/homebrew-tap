@@ -1,25 +1,25 @@
 class Eightkno < Formula
   desc "8kno command line interface"
   homepage "https://8kno.com"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-darwin-arm64.tar.gz"
-      sha256 "0e1ba21827e89f6f6446e04c7a9e5cdc387f7bc7b3fd010ef9e0985d8847f9b9"
+      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.1/8kno-darwin-arm64.tar.gz"
+      sha256 "71d3d46188f7f8669b89346b5c298c82e4566a87ab9fdfc58b8c37a2ad4e3fad"
     else
-      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-darwin-x64.tar.gz"
-      sha256 "767e185526181f1ab7d19e9dfce506068321edc2f0c1b8f8885ede2449808f74"
+      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.1/8kno-darwin-x64.tar.gz"
+      sha256 "2bcdf72ca42b17d36e67263ff75d3e43c293c25e6cff3316d6cdcd60d7be6574"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-linux-arm64.tar.gz"
-      sha256 "a8eacc29a511b029c8a3e1a2e7c421acc909bf8d0007a50bb5e58c0d57ab191e"
+      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.1/8kno-linux-arm64.tar.gz"
+      sha256 "3186648f9713e1f53063c4359cef7d781b217372e4dc187be9c1fa80386b2ba1"
     else
-      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-linux-x64.tar.gz"
-      sha256 "6aaeb76831379d11f3e993dd0a4aa699dcfb95e4efa69352e51729ad8283cc01"
+      url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.1/8kno-linux-x64.tar.gz"
+      sha256 "e797a5ec8ffe28e3272894e5c72e154582d22ec1f5d3cd11c09640fc239297f4"
     end
   end
 
@@ -28,6 +28,6 @@ class Eightkno < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output("#{bin}/8kno --version")
+    assert_match "0.1.1", shell_output("#{bin}/8kno --version")
   end
 end
