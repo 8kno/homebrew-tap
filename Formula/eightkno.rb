@@ -6,20 +6,20 @@ class Eightkno < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-darwin-arm64.tar.gz"
-      sha256 "66f043e422a701f80d9017156ccb8d0060ade3b616839b987377a60712b4e4d5"
+      sha256 "994faa17ceb8a5ad897ea088411a42a9985a1bf3f811f938e384d37cfc6da100"
     else
       url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-darwin-x64.tar.gz"
-      sha256 "e3f0434da9963c359651136478329d37fcfb8f1a50c9c8cdfc3885c4242c3e06"
+      sha256 "97967e8e250055cd222d446a0f4e3f104113fa138214b512f142d798aa3864e6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-linux-arm64.tar.gz"
-      sha256 "7c58ae692cde49b45a027dd192f45299c2cf11142072a40bde8436471e9a8400"
+      sha256 "5249a9969326b7e72a9793f6e47a923df8b2fcb1a8085bc6c0cc30056e16df89"
     else
       url "https://github.com/8kno/homebrew-tap/releases/download/v0.1.0/8kno-linux-x64.tar.gz"
-      sha256 "54997ff9127abd76f27706d3e083062f240b088c40f2589e7798c3d3b70842b0"
+      sha256 "d0f1ce9ce0256c577308b8b1f011da6203deae7ca88c4e7e9b74f2e21972319b"
     end
   end
 
